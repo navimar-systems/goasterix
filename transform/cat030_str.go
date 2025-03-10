@@ -2,9 +2,10 @@ package transform
 
 import (
 	"encoding/hex"
-	"github.com/mokhtarimokhtar/goasterix"
 	"strconv"
 	"strings"
+
+	"github.com/navimar-systems/goasterix"
 )
 
 type Mov struct {

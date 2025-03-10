@@ -1,11 +1,12 @@
 package transform
 
 import (
-	"github.com/mokhtarimokhtar/goasterix"
-	"github.com/mokhtarimokhtar/goasterix/uap"
-	"github.com/mokhtarimokhtar/goasterix/util"
 	"reflect"
 	"testing"
+
+	"github.com/navimar-systems/goasterix"
+	"github.com/navimar-systems/goasterix/uap"
+	"github.com/navimar-systems/goasterix/util"
 )
 
 func TestWriteModel(t *testing.T) {

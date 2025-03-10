@@ -5,7 +5,8 @@ import (
 	"bytes"
 	"encoding/binary"
 	"errors"
-	"github.com/mokhtarimokhtar/goasterix/uap"
+
+	"github.com/navimar-systems/goasterix/uap"
 )
 
 var (
@@ -150,5 +151,3 @@ func (db DataBlock) Payload() [][]byte {
 	}
 	return pd
 }
-
-

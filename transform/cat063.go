@@ -1,7 +1,7 @@
 package transform
 
 import (
-	"github.com/mokhtarimokhtar/goasterix"
+	"github.com/navimar-systems/goasterix"
 )
 
 type Cat063Model struct {

@@ -2,7 +2,8 @@ package transform
 
 import (
 	"errors"
-	"github.com/mokhtarimokhtar/goasterix"
+
+	"github.com/navimar-systems/goasterix"
 )
 
 var (

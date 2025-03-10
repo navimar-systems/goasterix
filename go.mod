@@ -1,3 +1,3 @@
-module github.com/mokhtarimokhtar/goasterix
+module github.com/navimar-systems/goasterix
 
 go 1.16

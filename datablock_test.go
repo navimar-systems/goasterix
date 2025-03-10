@@ -1,14 +1,16 @@
 package goasterix
 
 import (
-	"github.com/mokhtarimokhtar/goasterix/util"
 	"io"
 	"testing"
 
-	"github.com/mokhtarimokhtar/goasterix/uap"
+	"github.com/navimar-systems/goasterix/util"
+
+	"github.com/navimar-systems/goasterix/uap"
 )
 
-/**
+/*
+*
 Wrapper DataBlock Testing
 a Wrapper DataBlock correspond to one or more category and contains one or more Records.
 DataBlock = CAT + LEN + [FSPEC + items...] + [...] + ...
@@ -334,7 +336,3 @@ func TestDataBlockDecode_ARTAS(t *testing.T) {
 		}
 	}
 }
-
-
-
-

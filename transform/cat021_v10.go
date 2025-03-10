@@ -5,7 +5,7 @@ import (
 	"math"
 	"strings"
 
-	"github.com/mokhtarimokhtar/goasterix"
+	"github.com/navimar-systems/goasterix"
 )
 
 const (
@@ -421,7 +421,8 @@ func (data *Cat021Model) write(rec goasterix.Record) {
 }
 
 // TODO: Refactor to cover for arbitrary number of extensions (currently only covers
-//       two as that's explicitly in the spec)
+//
+//	two as that's explicitly in the spec)
 func targetReportDescriptor(cp goasterix.Extended) TargetReportDescriptor {
 	trd := new(TargetReportDescriptor)
 

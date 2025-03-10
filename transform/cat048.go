@@ -2,12 +2,12 @@ package transform
 
 import (
 	"encoding/hex"
-	"github.com/mokhtarimokhtar/goasterix"
-	"github.com/mokhtarimokhtar/goasterix/commbds"
 	"strconv"
 	"strings"
-)
 
+	"github.com/navimar-systems/goasterix"
+	"github.com/navimar-systems/goasterix/commbds"
+)
 
 // FL Flight Level, unit of altitude (expressed in 100's of feet)
 type FL struct {

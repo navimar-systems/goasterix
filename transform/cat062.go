@@ -6,7 +6,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/mokhtarimokhtar/goasterix"
+	"github.com/navimar-systems/goasterix"
 )
 
 type TrackVelocity struct {

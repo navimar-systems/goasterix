@@ -1,7 +1,7 @@
 package bdscode
 
 import (
-	"github.com/mokhtarimokhtar/goasterix"
+	"github.com/navimar-systems/goasterix"
 )
 
 // Code50 Track and turn report
