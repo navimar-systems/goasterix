@@ -1,9 +1,10 @@
 package transform
 
 import (
-	"github.com/mokhtarimokhtar/goasterix"
 	"math"
 	"strconv"
+
+	"github.com/navimar-systems/goasterix"
 )
 
 const (
@@ -79,7 +80,6 @@ type Cat004Model struct {
 	AircraftTwo              *AircraftIdentification   `json:"aircraftTwo,omitempty"`
 	TrackNumberTwo           uint16                    `json:"trackNumberTwo,omitempty"`
 }
-
 
 // todo case 7
 // todo case 13
@@ -171,13 +171,13 @@ func getConflictTimingSeparation(items goasterix.Compound) *ConflictTimingSepara
 			copy(payload[:], item.Fixed.Data[:])
 			cts.TimeToClosestApproach, _ = timeOfDay(payload)
 		case 3:
-			cts.CurrentHorizontalSeparation = float64(uint32(item.Fixed.Data[0])<<16 + uint32(item.Fixed.Data[1])<<8 + uint32(item.Fixed.Data[2])) * 0.5
+			cts.CurrentHorizontalSeparation = float64(uint32(item.Fixed.Data[0])<<16+uint32(item.Fixed.Data[1])<<8+uint32(item.Fixed.Data[2])) * 0.5
 		case 4:
-			cts.MinimumHorizontalSeparation = float64(uint16(item.Fixed.Data[0])<<8 + uint16(item.Fixed.Data[1])) * 0.5
+			cts.MinimumHorizontalSeparation = float64(uint16(item.Fixed.Data[0])<<8+uint16(item.Fixed.Data[1])) * 0.5
 		case 5:
-			cts.CurrentVerticalSeparation = uint32(uint16(item.Fixed.Data[0])<<8 + uint16(item.Fixed.Data[1])) * 25
+			cts.CurrentVerticalSeparation = uint32(uint16(item.Fixed.Data[0])<<8+uint16(item.Fixed.Data[1])) * 25
 		case 6:
-			cts.MinimumVerticalSeparation = uint32(uint16(item.Fixed.Data[0])<<8 + uint16(item.Fixed.Data[1])) * 25
+			cts.MinimumVerticalSeparation = uint32(uint16(item.Fixed.Data[0])<<8+uint16(item.Fixed.Data[1])) * 25
 		}
 	}
 

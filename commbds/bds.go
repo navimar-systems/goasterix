@@ -2,13 +2,14 @@ package commbds
 
 import (
 	"encoding/hex"
-	"github.com/mokhtarimokhtar/goasterix/commbds/bdscode"
 	"strconv"
 	"strings"
+
+	"github.com/navimar-systems/goasterix/commbds/bdscode"
 )
 
 var (
-//ErrCodeUndefined = errors.New("BDS Error: Code CodeNotProcessed")
+// ErrCodeUndefined = errors.New("BDS Error: Code CodeNotProcessed")
 )
 
 // Bds Comm-B Data Selector.

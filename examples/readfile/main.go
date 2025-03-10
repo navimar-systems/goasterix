@@ -2,9 +2,10 @@ package main
 
 import (
 	"fmt"
-	"github.com/mokhtarimokhtar/goasterix"
 	"io/ioutil"
 	"log"
+
+	"github.com/navimar-systems/goasterix"
 )
 
 func main() {

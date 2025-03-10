@@ -1,8 +1,9 @@
 package bdscode
 
 import (
-	"github.com/mokhtarimokhtar/goasterix"
 	"math"
+
+	"github.com/navimar-systems/goasterix"
 )
 
 // Code60 Heading and speed report

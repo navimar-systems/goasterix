@@ -3,8 +3,9 @@ package transform
 import (
 	"encoding/hex"
 	"errors"
-	"github.com/mokhtarimokhtar/goasterix"
 	"strconv"
+
+	"github.com/navimar-systems/goasterix"
 )
 
 const (
@@ -460,7 +461,7 @@ func systemProcessingMode(cp goasterix.Compound) SysProcess {
 // Message Count values, according the various types of messages, for the last completed antenna revolution,
 // counted between two North crossings.
 // Ref. 5.2.8 Data Item I034/070, Message Count Values
-//func messageCountValues(data []byte) ([]MessageCounter, error) {
+// func messageCountValues(data []byte) ([]MessageCounter, error) {
 func messageCountValues(item goasterix.Repetitive) ([]MessageCounter, error) {
 	var mcv []MessageCounter
 	var err error

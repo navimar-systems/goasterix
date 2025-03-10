@@ -1,14 +1,14 @@
 # GoAsterix
 
 [![made-with-Go](https://img.shields.io/badge/Made%20with-Go-1f425f.svg)](http://golang.org)
-[![Go Reference](https://pkg.go.dev/badge/github.com/mokhtarimokhtar/goasterix.svg)](https://pkg.go.dev/github.com/mokhtarimokhtar/goasterix)
+[![Go Reference](https://pkg.go.dev/badge/github.com/navimar-systems/goasterix.svg)](https://pkg.go.dev/github.com/navimar-systems/goasterix)
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
-[![Build-Test Status](https://github.com/mokhtarimokhtar/goasterix/actions/workflows/ci.yml/badge.svg)](https://github.com/mokhtarimokhtar/goasterix/actions?workflow=test)
+[![Build-Test Status](https://github.com/navimar-systems/goasterix/actions/workflows/ci.yml/badge.svg)](https://github.com/navimar-systems/goasterix/actions?workflow=test)
 [![Coverage](https://codecov.io/gh/mokhtarimokhtar/goasterix/branch/main/graphs/badge.svg?branch=main)](https://codecov.io/gh/mokhtarimokhtar/goasterix)
-[![Go Report Card](https://goreportcard.com/badge/github.com/mokhtarimokhtar/goasterix)](https://goreportcard.com/report/github.com/mokhtarimokhtar/goasterix)
+[![Go Report Card](https://goreportcard.com/badge/github.com/navimar-systems/goasterix)](https://goreportcard.com/report/github.com/navimar-systems/goasterix)
 
-[![GitHub issues](https://img.shields.io/github/issues/mokhtarimokhtar/goasterix)](https://github.com/mokhtarimokhtar/goasterix/issues)
+[![GitHub issues](https://img.shields.io/github/issues/mokhtarimokhtar/goasterix)](https://github.com/navimar-systems/goasterix/issues)
 
 This library provides an ASTERIX Frame(binary data) decoding/parsing(json,xml) capabilities for Go.
 
@@ -23,11 +23,11 @@ More about ASTERIX: [Eurocontrol asterix](https://www.eurocontrol.int/asterix)
 
 ### Documentation
 
-* [API Reference](https://pkg.go.dev/github.com/mokhtarimokhtar/goasterix)
-* [Hex to String example](https://github.com/mokhtarimokhtar/goasterix/tree/main/examples/hextostring)
-* [Decode binary file example](https://github.com/mokhtarimokhtar/goasterix/tree/main/examples/readfile)
-* [Parsing Json example](https://github.com/mokhtarimokhtar/goasterix/tree/main/examples/readfiletojson)
+* [API Reference](https://pkg.go.dev/github.com/navimar-systems/goasterix)
+* [Hex to String example](https://github.com/navimar-systems/goasterix/tree/main/examples/hextostring)
+* [Decode binary file example](https://github.com/navimar-systems/goasterix/tree/main/examples/readfile)
+* [Parsing Json example](https://github.com/navimar-systems/goasterix/tree/main/examples/readfiletojson)
 
 ## Installation
 
-    go get github.com/mokhtarimokhtar/goasterix
+    go get github.com/navimar-systems/goasterix

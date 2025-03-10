@@ -2,8 +2,9 @@ package goasterix
 
 import (
 	"bytes"
-	"github.com/mokhtarimokhtar/goasterix/uap"
 	"testing"
+
+	"github.com/navimar-systems/goasterix/uap"
 )
 
 func TestFixed_Payload(t *testing.T) {

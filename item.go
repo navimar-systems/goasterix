@@ -2,7 +2,8 @@ package goasterix
 
 import (
 	"encoding/hex"
-	"github.com/mokhtarimokhtar/goasterix/uap"
+
+	"github.com/navimar-systems/goasterix/uap"
 )
 
 type MetaItem struct {

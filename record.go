@@ -8,7 +8,7 @@ import (
 	"io"
 	"math/bits"
 
-	"github.com/mokhtarimokhtar/goasterix/uap"
+	"github.com/navimar-systems/goasterix/uap"
 )
 
 var (

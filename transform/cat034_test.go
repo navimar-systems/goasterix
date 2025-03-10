@@ -2,11 +2,12 @@ package transform
 
 import (
 	"encoding/json"
-	"github.com/mokhtarimokhtar/goasterix"
-	"github.com/mokhtarimokhtar/goasterix/uap"
-	"github.com/mokhtarimokhtar/goasterix/util"
 	"reflect"
 	"testing"
+
+	"github.com/navimar-systems/goasterix"
+	"github.com/navimar-systems/goasterix/uap"
+	"github.com/navimar-systems/goasterix/util"
 )
 
 func TestCat034Model_MessageType(t *testing.T) {

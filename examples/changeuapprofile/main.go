@@ -2,9 +2,10 @@ package main
 
 import (
 	"fmt"
-	"github.com/mokhtarimokhtar/goasterix"
-	"github.com/mokhtarimokhtar/goasterix/uap"
-	"github.com/mokhtarimokhtar/goasterix/util"
+
+	"github.com/navimar-systems/goasterix"
+	"github.com/navimar-systems/goasterix/uap"
+	"github.com/navimar-systems/goasterix/util"
 )
 
 func main() {

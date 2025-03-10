@@ -2,12 +2,13 @@ package goasterix
 
 import (
 	"bytes"
-	"github.com/mokhtarimokhtar/goasterix/util"
 	"io"
 	"reflect"
 	"testing"
 
-	"github.com/mokhtarimokhtar/goasterix/uap"
+	"github.com/navimar-systems/goasterix/util"
+
+	"github.com/navimar-systems/goasterix/uap"
 )
 
 func TestRecord_Payload(t *testing.T) {
@@ -757,7 +758,7 @@ func TestRFSDataFieldReader(t *testing.T) {
 	}
 }
 
-//Testing by record
+// Testing by record
 func TestRecordDecode_NbOfItems(t *testing.T) {
 	// setup
 	type dataTest struct {
